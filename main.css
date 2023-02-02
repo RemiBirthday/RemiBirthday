@@ -1,0 +1,57 @@
+@font-face {
+    font-family: SmilingLove;
+    src: url(fonts/SmilingLove.ttf);
+}
+
+body {
+    display: block;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #75ACFF;
+    user-select: none;
+    font-family: SmilingLove;
+}
+div > img {
+    width: 100%;
+}
+.container {
+    display: flex;
+  }
+  
+  .big {
+    margin-top: 10%;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .small {
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner1 {
+    width: 100%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+  }
+
+  .inner2 {
+    width: 150%;
+    margin: 20px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #balloons1, #balloons2 {
+    transform: rotate(-20deg);
+  }
